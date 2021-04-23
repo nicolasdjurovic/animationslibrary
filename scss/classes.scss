@@ -1,0 +1,63 @@
+.saenimate {
+
+    &.spin,
+    &.spin-hover:hover {
+        animation-name: spin;
+    }
+    
+    &.fadeInOut,
+    &.fadeInOut-hover:hover {
+        animation-name: fadeInOut;
+    }
+
+    &.colorApple,
+    &.colorApple-hover:hover {
+        animation-name: colorApple;
+    }
+
+    &.colorGrape,
+    &.colorGrape-hover:hover {
+        animation-name: colorGrape;
+    }
+    
+    &.colorPeach,
+    &.colorPeach-hover:hover {
+        animation-name: colorPeach;
+    }
+    
+    &.bop,
+    &.bop-hover:hover {
+        animation-name: bop;
+    }
+
+    &.shake,
+    &.shake-hover:hover {
+        animation-name: shake;
+    }
+
+    &.skewX,
+    &.skewX-hover:hover {
+        animation-name: skewX;
+    }
+
+    &.skewY,
+    &.skewY-hover:hover {
+        animation-name: skewY;
+    }
+    
+    &.jump,
+    &.jump-hover:hover {
+        animation-name: jump;
+    }
+
+    &.edge,
+    &.edge-hover:hover {
+        animation-name: edge;
+    }
+    
+    &.squish,
+    &.squish-hover:hover {
+        animation-name: squish;
+    }
+
+}

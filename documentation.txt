@@ -1,0 +1,39 @@
+Saenimate Animations Library
+By Nicolas Djurovic
+
+- Link saenimate.css to .html file. 
+- Animations only work if .saenimate class is added to an HTML element.
+- If you're using the animations with color, you need to apply a background-color (in your own css) to an element for the animation to work.
+
+Class names are written in the brackets ().
+
+Animation:
+- Spin (.spin)
+- Fade in-out (.fadeInOut)
+- Bop (.bop)
+- Color Apple (.colorApple)
+- Color Grape (.colorGrape)
+- Color Peach (.colorPeach)
+- Edge (.edge)
+- Shake (.shake)
+- SkewX (.skewX)
+- SkewY (.skewY)
+- Squish (.squish)
+- Jump (.jump)
+
+
+Duration:
+- Half a second (.duration-half)
+- 1 second (.duration-1)
+- 2 second (.duration-2)
+- 3 second (.duration-3)
+
+Repetition:
+- Repeat once (.repeat-1)
+- Infinite (.infinite)
+
+Direction:
+- Alternate (.alternate)
+
+Fill Mode:
+- Forward (.forwards)

@@ -1,0 +1,230 @@
+.saenimate.duration-half {
+  animation-duration: 0.5s;
+}
+
+.saenimate.duration-1 {
+  animation-duration: 1s;
+}
+
+.saenimate.duration-2 {
+  animation-duration: 2s;
+}
+
+.saenimate.duration-3 {
+  animation-duration: 3s;
+}
+
+.saenimate.repeat-1 {
+  animation-iteration-count: 1;
+}
+
+.saenimate.repeat-2 {
+  animation-iteration-count: 2;
+}
+
+.saenimate.repeat-3 {
+  animation-iteration-count: 3;
+}
+
+.saenimate.infinite {
+  animation-iteration-count: infinite;
+}
+
+.saenimate.spin, .saenimate.spin-hover:hover {
+  animation-name: spin;
+}
+.saenimate.fadeInOut, .saenimate.fadeInOut-hover:hover {
+  animation-name: fadeInOut;
+}
+.saenimate.colorApple, .saenimate.colorApple-hover:hover {
+  animation-name: colorApple;
+}
+.saenimate.colorGrape, .saenimate.colorGrape-hover:hover {
+  animation-name: colorGrape;
+}
+.saenimate.colorPeach, .saenimate.colorPeach-hover:hover {
+  animation-name: colorPeach;
+}
+.saenimate.bop, .saenimate.bop-hover:hover {
+  animation-name: bop;
+}
+.saenimate.shake, .saenimate.shake-hover:hover {
+  animation-name: shake;
+}
+.saenimate.skewX, .saenimate.skewX-hover:hover {
+  animation-name: skewX;
+}
+.saenimate.skewY, .saenimate.skewY-hover:hover {
+  animation-name: skewY;
+}
+.saenimate.jump, .saenimate.jump-hover:hover {
+  animation-name: jump;
+}
+.saenimate.edge, .saenimate.edge-hover:hover {
+  animation-name: edge;
+}
+.saenimate.squish, .saenimate.squish-hover:hover {
+  animation-name: squish;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bop {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.15);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes colorApple {
+  0% {
+    background-color: #007f5f;
+    color: white;
+  }
+  100% {
+    background-color: #d4d700;
+    color: black;
+  }
+}
+@keyframes colorGrape {
+  0% {
+    background-color: #480ca8;
+    color: white;
+  }
+  100% {
+    background-color: #4cc9f0;
+    color: black;
+  }
+}
+@keyframes colorPeach {
+  0% {
+    background-color: #d00000;
+    color: white;
+  }
+  100% {
+    background-color: #ffba08;
+    color: black;
+  }
+}
+@keyframes edges {
+  0% {
+    border-radius: 20px;
+  }
+  50% {
+    border-radius: 50px;
+  }
+  100% {
+    border-radius: 20px;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(10px);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(5px);
+  }
+  80% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes skewX {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes skewY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes edge {
+  0% {
+    border-radius: 0;
+  }
+  50% {
+    border-radius: 20px 0 20px 0;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+@keyframes squish {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(0.6);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.saenimate.alternate {
+  animation-direction: alternate;
+}
+
+.saenimate.fillmode {
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=saenimate.css.map */
